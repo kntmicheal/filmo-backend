@@ -1,1 +1,4 @@
-// Add index controller here and create more in this folder
+import userAuthentications from '../controllers/usersController';
+import moviesTable from '../controllers/moviesController';
+
+export { userAuthentications, moviesTable };
