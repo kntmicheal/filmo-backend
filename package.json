@@ -30,7 +30,7 @@
     "mocha": "^6.2.1"
   },
   "scripts": {
-    "test": "mocha --require @babel/register ./tests/*.test.js --exit",
+    "test": "mocha --require @babel/register ./app/tests/*.test.js --exit",
     "heroku-postbuild": "npm install",
     "start": "nodemon ./index.js --exec babel-node",
     "start:heroku": "babel-node index.js",
